@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -10;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+span:hover {
+    color: rgb(161, 0, 161);
+}
+
+#logo {
+    color: rgb(255, 212, 72);
+    font-family: 'Monoton', cursive;
+    font-size: 75pt;
+    margin-top: -6%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+}
+
+#texte1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    padding: 2%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+    display: inline-block;
+    color: white;
+}
+
+strong {
+    color: rgb(161, 0, 161)
+}
+
+#champ {
+    background-color: rgb(255, 212, 72);
+}
+
+#dev {
+    color: rgb(255, 212, 72);
+}
+
+#dev:hover {
+    color: rgb(161, 0, 161);
+}
+
+#mail {
+    max-width: 25em;
+    width: 10em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: 2px solid rgb(161, 0, 161);
+    border-radius: 4px;
+    font-size: 15pt;
+    padding: 1em;
+    color: rgb(161, 0, 161)
+}
+
+#mail:focus {
+    width: 100%;
+    outline: none;
+}
